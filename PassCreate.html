@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" href="./images/olxbrowserlogo.jpg">
+    <title>Password-OLX</title>
+</head>
+
+<body id="bodypass" onload="loadfun()">
+    <div id="pass">
+        <div id="imgpass">
+            <img src="./images/Logotyp_OLX_.png" alt="">
+        </div>
+        <div id="headingpass">
+            <h3>Create a password to login faster next time</h3>
+            <p id="para">You are creating a password for <b id="getemail">sadiqkhanach@gmail.com</b>. This will help you
+                login
+                faster next time.</p>
+        </div>
+        <div id="Pass">
+            <input type="password" id="newPass" placeholder="New password">
+        </div>
+        <div id="passCon">
+            <p>Use minimum 6 characters, and at least one letter and one number</p>
+        </div>
+        <div id="Pass">
+            <input type="password" id="conPass" placeholder="Confirm new password">
+        </div>
+        <div id="Pass">
+            <button onclick="createpass()">Create password</button>
+        </div>
+        <div id="prapass">
+            <p>This site is protected by reCAPTCHA and the Google <b class="blue">Privacy Policy</b> and <b
+                    class="blue">Terms
+                    of Service</b>
+                apply.</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
